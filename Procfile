@@ -1,1 +1,1 @@
-web: python runserver 0.0.0.0:443
+web: python app.py
