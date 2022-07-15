@@ -20,7 +20,7 @@
     <div class="container">
       <h1 class="mt-5">OpenAi Online Blog Writing Tool</h1>
 
-      <p>The Skolo blog writing tool will allow you to enter a blog topic and keywords --- and get in return a full blog that you can use anywhere. The tool intiially provides a list of topic ideas to choose from, once you select a topic, you can go ahead and generate a full content AI blog.</p>
+      <p>This writing tool will allow you to enter a blog topic and keywords --- and get in return a full blog that you can use anywhere. The tool intiially provides a list of topic ideas to choose from, once you select a topic, you can go ahead and generate a full content AI blog.</p>
 
       <div class="row">
         <div class="col-lg-6">
@@ -38,7 +38,7 @@
 
 
         <div class="col-lg-6">
-          1. {{blogTopicIdeas|safe}}
+          1. {{blogTopicIdeas|unsafe}}
         </div>
       </div>
 
@@ -63,7 +63,7 @@
 
 
         <div class="col-lg-6">
-          {{blogSectionIdeas|safe}}
+          {{blogSectionIdeas|unsafe}}
         </div>
       </div>
 
@@ -87,7 +87,7 @@
 
 
         <div class="col-lg-6">
-          {{blogExpanded|safe}}
+          {{blogExpanded|unsafe}}
         </div>
       </div>
 
